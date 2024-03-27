@@ -1,3 +1,93 @@
+body {background-color: rgb(219, 228, 198) !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+h1 {color: rgb(0, 0, 0);}
+h3 {color: rgb(24, 5, 105);}
+h2 {color: rgb(0, 0, 0);}
+p {color: rgb(48, 46, 46);}
+
+footer {color: rgb(7, 15, 126);}
+.tooltipLabel {font-size: 1em;}
+
+@media screen and (max-width: 540px) {
+    .tooltipLabel {
+font-size: 28px !important;
+}
+}
+
+/* Tooltip container */
+.tooltip {
+position: relative ;
+display: inline-block ;
+border-bottom: 1px dotted black ; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+visibility: hidden ;
+width: 120px ;
+background-color: black ;
+color: #fff ;
+text-align: center ;
+padding: 5px 0 ;
+border-radius: 6px ;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(48, 46, 46);
+
+
+
+/* Position the tooltip text - see examples below! */
+position: absolute !important;
+z-index: 1 !important;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+visibility: visible !important;
+}
+
+@media screen and (min-width: 540px) {
+    .tooltip .tooltiptext {
+    width: 500px !important;
+
+}
+}
+/* LINK CSS */
+
+/* unvisited link */
+a:link {
+    color: rgb(38, 0, 255);
+    text-transform: uppercase;
+    background: rgb(219, 228, 198);
+    padding: 3px;
+    border: 2px solid rgb(219, 228, 198)!important;
+    border-radius: 2px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(149, 142, 219);
+    background: rgb(219, 228, 198);
+    padding: 3px;
+    border: 2px solid rgb(219, 228, 198) !important;
+    border-radius: 2px;
+    display: inline-block;
+  }
+  
+  /* mouse over link */
+  a:hover {
+
+
+        color: rgb(38, 0, 255) !important;
+        background: rgb(171, 179, 154);
+        border-radius: 50px;
+        border-color: #494949 !important;
+        transition: all 0.3s ease 0s;
+        }
+
+  
+
 /* HEADING CSS */
 
 a{
